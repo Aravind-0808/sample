@@ -13,6 +13,7 @@
     <AppDomain>https://redmindtechnologies.com/</AppDomain>
   </AppDomains>
   <Hosts>
+  
     <Host Name="Mailbox"/>
   </Hosts>
   <Requirements>
