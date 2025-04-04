@@ -2,12 +2,12 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
 <Id>7788a988-6504-4f01-9d0a-0068e194c701</Id>
 <Version>1.0.0.0</Version>
-  <ProviderName>RedMind</ProviderName>
+<ProviderName>RedMind</ProviderName>
 <DefaultLocale>en-US</DefaultLocale>
 <DisplayName DefaultValue="ECG"/>
 <Description DefaultValue="The Outlook Mail Archive Plugin helps users save emails to a local folder for better organization and management."/>
-  <IconUrl DefaultValue="https://www.contoso.com/assets/redmindlogo3.jpg"/>
-  <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/ECG_Logo.jpg"/>
+<IconUrl DefaultValue="https://aravind-0808.github.io/sample/assets/ECG_Logo.jpg"/>
+<HighResolutionIconUrl DefaultValue="https://aravind-0808.github.io/sample/assets/ECG_Logo.jpg"/>
 <SupportUrl DefaultValue="https://redmindtechnologies.com/index.php/file-a-ticket/"/>
 <AppDomains>
 <AppDomain>https://redmindtechnologies.com/</AppDomain>
@@ -23,7 +23,7 @@
 <FormSettings>
 <Form xsi:type="ItemRead">
 <DesktopSettings>
-<SourceLocation DefaultValue="https://abose-p.github.io/Email-Archive/taskpane.html"/>
+<SourceLocation DefaultValue="https://aravind-0808.github.io/sample/taskpane.html"/>
 <RequestedHeight>250</RequestedHeight>
 </DesktopSettings>
 </Form>
@@ -70,16 +70,16 @@
 </Hosts>
 <Resources>
 <bt:Images>
-<bt:Image id="Icon.16x16" DefaultValue="https://abose-p.github.io/Email-Archive/assets/ECG_Logo.jpg"/>
-<bt:Image id="Icon.32x32" DefaultValue="https://abose-p.github.io/Email-Archive/assets/ECG_Logo.jpg"/>
-<bt:Image id="Icon.80x80" DefaultValue="https://abose-p.github.io/Email-Archive/assets/ECG_Logo.jpg"/>
+<bt:Image id="Icon.16x16" DefaultValue="https://aravind-0808.github.io/sample/assets/ECG_Logo.jpg"/>
+<bt:Image id="Icon.32x32" DefaultValue="https://aravind-0808.github.io/sample/assets/ECG_Logo.jpg"/>
+<bt:Image id="Icon.80x80" DefaultValue="https://aravind-0808.github.io/sample/assets/ECG_Logo.jpg"/>
 </bt:Images>
 <bt:Urls>
-<bt:Url id="Commands.Url" DefaultValue="https://abose-p.github.io/Email-Archive/commands.html"/>
-<bt:Url id="Taskpane.Url" DefaultValue="https://abose-p.github.io/Email-Archive/taskpane.html"/>
+<bt:Url id="Commands.Url" DefaultValue="https://aravind-0808.github.io/sample/commands.html"/>
+<bt:Url id="Taskpane.Url" DefaultValue="https://aravind-0808.github.io/sample/taskpane.html"/>
 </bt:Urls>
 <bt:ShortStrings>
-        <bt:String id="GroupLabel" DefaultValue="RedMind Add-in"/>
+<bt:String id="GroupLabel" DefaultValue="RedMind Add-in"/>
 <bt:String id="TaskpaneButton.Label" DefaultValue="Outlook Email Archive "/>
 </bt:ShortStrings>
 <bt:LongStrings>
