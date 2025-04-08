@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outlook Email Archive </title>
+
+  <!-- Office JavaScript API -->
+  <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+
+  <link href="taskpane.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="ms-font-m ms-Fabric">
+  <header>
+    <h1>Outlook Email Archive </h1>
+  </header>
+
+  <main>
+    <h2>Selected Email</h2>
+    <div id="email-details">
+      <p><strong>Subject:</strong> <span id="email-subject"></span></p>
+       <!-- Input and Button in Same Line -->
+       <div class="input-container">
+        <input type="text" id="project-name" placeholder="Enter project name" />
+        <button onclick="saveEmail()">Save Email</button> 
+      </div>
+      <div>
+        <p id="warning-message" style="color: red; display: none;margin-bottom: 20px;text-align: center;"></p>
+        <p id="status-message" style="color: green; display: none;margin-bottom: 20px;text-align: center;"></p>
+        
+     </div>
+      <button onclick="listSavedEmails()">Show Saved Project</button>
+      <div id="email-history" style="display: none;">
+        <table>
+          <thead>
+            <tr>
+              <th>Project Name</th>
+              <th>Email Name</th>
+            </tr>
+          </thead>
+          <tbody id="history-table-body" >
+            <!-- Saved emails will be displayed here -->
+          </tbody>
+        </table>
+      </div>
+      <hr>
+      <div id="email-body" style="display: none;"></div>
+    </div>
+  </main>
+
+  <script src="taskpane.js"></script>
+</body>
+
+</html>
